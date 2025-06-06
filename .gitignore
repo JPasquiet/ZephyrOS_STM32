@@ -1,0 +1,28 @@
+# Ignore build folder
+build/
+
+# Temp Files
+*.log
+*.swp
+*.swo
+*.pyc
+__pycache__/
+
+# Config utilisateur west (ne pas versionner ton environnement)
+west.yml
+west.log
+
+# Venv Python local
+.venv/
+
+# Fichiers de backup
+*~
+
+# Compilation CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Compilation Ninja
+.ninja*
